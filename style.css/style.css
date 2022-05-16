@@ -95,7 +95,7 @@ img {
 .headr-logo {
   margin-right: 93px;
 }
-.headr-colortext {
+.headr-logo--colortext {
   color: var(--primery-text-color);
 }
 
@@ -131,7 +131,7 @@ img {
   margin-left: 34px;
 }
 
-.current::after {
+.menu-list__link--current::after {
   content: "";
   width: 100%;
   height: 4px;
@@ -147,7 +147,7 @@ img {
 .headr-link:focus {
   color: var(--blue);
 }
-.current {
+.menu-list__link--current {
   color: var(--blue);
 }
 .menu-contact {
