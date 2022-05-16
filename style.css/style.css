@@ -127,7 +127,7 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-contact-item + .menu-contact-item {
+.menu-contact__item + .menu-contact__item {
   margin-left: 34px;
 }
 
@@ -156,7 +156,7 @@ img {
   margin-left: auto;
 }
 
-.headr-tel-link {
+.menu-contact__link {
   display: flex;
   align-items: center;
   font-family: inherit;
@@ -169,30 +169,14 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.headr-mail-link {
-  display: flex;
-  align-items: center;
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--grey);
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.headr-tel-link:focus,
-.headr-tel-link:hover {
+
+.menu-contact__link:focus,
+.menu-contact__link:hover {
   color: var(--blue);
 }
 
-.headr-mail-link:focus,
-.headr-mail-link:hover {
-  color: var(--blue);
-}
 
-.heder-mail-icon {
+.menu-contact__icon{
   margin-right: 6px;
   fill: var(--grey);
   color: currentColor;
@@ -201,22 +185,13 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.heder-smartphone-icon {
-  margin-right: 6px;
-  fill: var(--grey);
-  color: currentColor;
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.headr-tel-link:focus .heder-smartphone-icon,
-.headr-tel-link:hover .heder-smartphone-icon {
+.menu-contact__link:focus .menu-contact__icon,
+.menu-contact__link:hover .menu-contact__icon {
   fill: var(--blue-button);
 }
 
-.headr-mail-link:focus .heder-mail-icon,
-.headr-mail-link:hover .heder-mail-icon {
+.hmenu-contact__link:focus .menu-contact__icon,
+.hmenu-contact__link:hover .menu-contact__icon {
   fill: var(--blue-button);
 }
 
